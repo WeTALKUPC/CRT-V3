@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Actualizar el sistema e instalar dependencias del sistema necesarias para Pillow
+# Instalar dependencias del sistema para Pillow
 sudo apt-get update
-sudo apt-get install -y zlib1g-dev libjpeg-dev libpng-dev
+sudo apt-get install -y zlib1g-dev libjpeg-dev
 
-# Actualizar pip antes de instalar dependencias de Python
+# Actualizar pip
 pip install --upgrade pip
 
-# Instalar las dependencias de Python especificadas en requirements.txt
+# Instalar dependencias de Python
 pip install -r requirements.txt
