@@ -4,8 +4,8 @@
 sudo apt-get update
 sudo apt-get install -y zlib1g-dev
 
-# Actualizar pip a la última versión
+# Actualizar pip antes de instalar dependencias de Python
 pip install --upgrade pip
 
-# Instalar las dependencias de Python especificadas en requirements.txt
+# Instalar dependencias de Python especificadas en requirements.txt
 pip install -r requirements.txt
